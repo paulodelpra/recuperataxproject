@@ -1,0 +1,35 @@
+ul {
+    list-style: none;
+}
+
+h1, p{
+    color: #0B436A;
+}
+
+a {
+    text-decoration: none;
+    color:#717FFF;
+}
+
+.listTitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #0B436A;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.listTitle li {
+    width: 2rem;
+}
+
+.listPlan li  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.listPlan li:nth-child(2n+2) {background: #D5DDE3}

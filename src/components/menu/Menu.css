@@ -1,0 +1,40 @@
+body {
+    background-color: #fff;
+}
+
+.sidebar-navigation {
+    align-self: flex-start;
+    background-color: #0B436A;
+    height: 100vh;
+    padding: 20px 0px;
+}
+
+.sidebar-navigation li {
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.sidebar-navigation ul li .icon {
+    color:#CCD7DF;
+}
+
+.submenu {
+    position: absolute;
+    top: 80px;
+    left: 36px;
+    background-color: #033457;
+    display: none;
+    height: 100%;
+    color: #fff;
+}
+
+.submenu a {
+    color: #033457;
+}
+
+
+
+.submenu {
+    display: none;
+}

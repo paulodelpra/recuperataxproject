@@ -1,0 +1,65 @@
+.titleEmpresa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listEmpresa li ul  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.listEmpresa li ul li div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    align-self: center;
+}
+
+.listEmpresa li ul li p {
+    font-weight: bold;
+}
+
+.listEmpresa li ul li {
+    padding: 10px 10px;
+    align-self: center;
+    color: #0B436A;
+}
+
+.listEmpresa li {
+    background-color: #F0F0F0;
+}
+
+.delete {
+    color:#F2554B;
+}
+
+.buttonsAction {
+    color: #27263A;
+}
+
+.lupa {
+    background-color: #00C582;
+    padding: 2px;
+    color: #fff;
+}
+
+.pesquisar {
+    border-radius: 2px;
+    border: 1px solid beige;
+    padding: 2px 5px;
+}
+
+.cadastrar {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00C582;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    gap: 8px;
+}
